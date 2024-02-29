@@ -595,8 +595,12 @@ textarea {
   height: auto;
 }
 
-#section-about {
+#section-about .section-title{
+  font-size: 50px;
+}
 
+#section-about .section-description {
+  font-size: 20px;
 }
 
 
@@ -619,14 +623,14 @@ textarea {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   margin-bottom: 2px;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 #section-about .member span {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
   font-style: italic;
   display: block;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 #section-about .member .social {
@@ -649,4 +653,13 @@ textarea {
 
 .ini-rating{
   color: gold;
+}
+
+#section-counter .ftco-label {
+  font-size: 18px;
+  color: gray;
+}
+
+#section-counter .lead {
+  font-size: 27px;
 }
